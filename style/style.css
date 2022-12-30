@@ -8,6 +8,8 @@ flex-direction:column;
     display: flex;
     gap: 15px;
     justify-content: space-between;
+    margin-left: 20em;
+    margin-right: 20em;
 }
 
 
