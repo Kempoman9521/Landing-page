@@ -5,8 +5,13 @@ flex-direction:column;
 
 .header{
     background-color:#1F2937;
+    color:#F9FAF8;
 }
 
+.title{
+font-size: 48px;
+    font-weight: bolder;
+}
 .header-links, .links{
     display: flex;
     gap: 15px;
