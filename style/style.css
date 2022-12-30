@@ -6,6 +6,8 @@ flex-direction:column;
 
 .header-links, .links{
     display: flex;
+    gap: 15px;
+    justify-content: space-between;
 }
 
 
