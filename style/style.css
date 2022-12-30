@@ -8,10 +8,6 @@ flex-direction:column;
     color:#F9FAF8;
 }
 
-.title{
-font-size: 48px;
-    font-weight: bolder;
-}
 .header-links, .links{
     display: flex;
     gap: 15px;
@@ -19,6 +15,16 @@ font-size: 48px;
     margin-left: 20em;
     margin-right: 20em;
 }
+
+.bold{
+font-size: 48px;
+    font-weight: bolder;
+}
+
+.wrapper{
+display:fl
+}
+
 
 
 
