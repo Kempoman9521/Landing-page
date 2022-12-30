@@ -6,14 +6,19 @@ flex-direction:column;
 .header{
     background-color:#1F2937;
     color:#F9FAF8;
+   
 }
 
 .header-links, .links{
     display: flex;
     gap: 15px;
     justify-content: space-between;
+}
+
+.header-links{
     margin-left: 20em;
     margin-right: 20em;
+ 
 }
 
 .bold{
@@ -22,7 +27,7 @@ font-size: 48px;
 }
 
 .wrapper{
-display:fl
+display:flex
 }
 
 
