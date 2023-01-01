@@ -1,43 +1,146 @@
-.body {
-display: flex;
-flex-direction:column;
+.page{
+    display:flex;
+    flex-direction:column;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
 }
+
 
 .header{
-    background-color:#1F2937;
-    color:#F9FAF8;
-   
+background-color: #202e42;
+padding-bottom: 5em;
 }
 
-.header-links, .links{
-    display: flex;
-    gap: 15px;
-    justify-content: space-between;
+.button-header{
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 5px;;
+padding-bottom: 5px;
+color:#F9FAF8;
+background-color:#3882F6;
+font-size: 18px;
+border-radius: 10px;
+border-color:#3882F6;
+margin-top: 5px;
 }
 
-.header-links{
-    margin-left: 20em;
-    margin-right: 20em;
- 
+
+
+.title-text-button{
+width: 500px;
 }
 
-.bold{
+.logo-links, .title, .text-header{
+color: #d9dcd5;
+}
+
+.title{
 font-size: 48px;
-    font-weight: bolder;
+font-weight:bolder;
 }
 
-.wrapper{
-display:flex
+.logo{
+font-size: 24px;
+font-weight: bold;
+}
+
+.logo-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 5em;
 }
 
 
+.text-header, .links{
+font-size: 18px;
+color: #E5E7EB;
+
+}
+
+.a{
+text-decoration: none;
+}
+
+.links{
+display: flex; 
+gap: 15px;
+margin: 0;
+padding: 0;
+}
+
+.link{
+list-style: none;
+}
 
 
+.list{
+display: flex;
+margin: 0;
+padding: 0;
+gap: 10px;
+}
+
+.pic{
+width:450px;
+height: 200px;
+}
+
+.title-img{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 50px;
+
+}
 
 
+/* "Some random information" section below */
 
 
+.header-two{
+display: flex;
+ justify-content: center;
+ margin-top:50px
+ }
 
-.black{
-    width: 200px;
+.content-title{
+font-size: 36px;
+font-weight: bolder;
+color: #334d71;
+}
+
+.squares{
+display: flex;
+justify-content: center;
+
+}
+
+.square{
+width: 200px;
+height: 190px;
+border-style:solid;
+border-color:#3882F6;
+border-radius: 25px;
+border: -10px;
+border-width: 5px;
+}
+
+.info{
+max-width: 210px;
+margin: 20px;
+}
+
+.s-text{
+font-size: 18px;
+text-align: start;
+color: #60615f;
+margin-top: 10px;
+}
+
+/* "quote" section below */
+
+.quote{
+width: 500px;
 }
