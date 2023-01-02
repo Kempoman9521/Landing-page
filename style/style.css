@@ -180,7 +180,10 @@ background-color: #3882F6;
 color: #F9FAF8;
 font-family: 'Roboto', sans-serif;
 display: flex;
-flex-direction: column;
+height: 9em;
+width: 69em;
+border-radius: 5px;
+justify-content:center ;
 
 }
 
