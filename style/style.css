@@ -171,7 +171,8 @@ font-weight: lighter;
  display: flex;
  flex-direction: column;
  height:16em;
-
+justify-content: center;
+align-items: center;
 }
 
 .blue{
