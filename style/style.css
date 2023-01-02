@@ -128,7 +128,7 @@ height: 190px;
 border-style:solid;
 border-color:#3882F6;
 border-radius: 25px;
-border: -10px;
+border: -
 border-width: 5px;
 
 }
@@ -150,10 +150,11 @@ margin-top: 10px;
 display: flex;
 justify-content: center;
 align-items: center;
-
+flex: 1;
+background-color: #E5E7EB;
 }
 
 .quote{
 text-align:start;
-width: 300px;
+width: 400px;
 }
